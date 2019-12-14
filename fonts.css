@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "Stratos LC";
+    src: url("fonts/StratosLC/Stratos.eot"); /* IE9*/
+    src: url("fonts/StratosLC/Stratos.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/StratosLC/Stratos.woff") format("woff"), /* chrome firefox */
+    url("fonts/StratosLC/Stratos.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("fonts/StratosLC/Stratos.svg#Stratos LC Web ExtraBold") format("svg"); /* iOS 4.1- */
+}
+@font-face {
+	font-family: "Stratos LC";
+    src: url("fonts/StratosLC/StratosSemiLight.eot"); /* IE9*/
+    src: url("fonts/StratosLC/StratosSemiLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/StratosLC/StratosSemiLight.woff") format("woff"), /* chrome firefox */
+    url("fonts/StratosLC/StratosSemiLight.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("fonts/StratosLC/StratosSemiLight.svg#Stratos LC Web ExtraBold") format("svg"); /* iOS 4.1- */
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Stratos LC";
+    src: url("fonts/StratosLC/StratosMedium.eot"); /* IE9*/
+    src: url("fonts/StratosLC/StratosMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/StratosLC/StratosMedium.woff") format("woff"), /* chrome firefox */
+    url("fonts/StratosLC/StratosMedium.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("fonts/StratosLC/StratosMedium.svg#Stratos LC Web ExtraBold") format("svg"); /* iOS 4.1- */
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Stratos LC";
+    src: url("fonts/StratosLC/StratosSemiBold.eot"); /* IE9*/
+    src: url("fonts/StratosLC/StratosSemiBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/StratosLC/StratosSemiBold.woff") format("woff"), /* chrome firefox */
+    url("fonts/StratosLC/StratosSemiBold.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("fonts/StratosLC/StratosSemiBold.svg#Stratos LC Web ExtraBold") format("svg"); /* iOS 4.1- */
+	font-weight: 700;
+}
