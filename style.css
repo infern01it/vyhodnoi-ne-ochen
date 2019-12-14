@@ -23,6 +23,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+body,
+html {
+  position: fixed;
+}
 body {
 	line-height: 1;
 }
@@ -625,7 +629,12 @@ section.section-5 {
 	section.section-5 {
 		position:relative;
 		bottom:0;
-		height:calc(100vh - 30px);
+		height: calc(100vh - 30px);
+	}
+}
+@media (max-height: 850px) {
+	section.section-5 {
+		height: calc(100vh - 319px);
 	}
 }
 section.section-5 #map {
@@ -635,7 +644,12 @@ section.section-5 #map {
 }
 @media (max-width: 767px) {
 	section.section-5 #map {
-		height:calc(100vh - 30px);
+		height: calc(100vh - 30px);
+	}
+}
+@media (max-height: 850px) {
+	section.section-5 #map {
+		height: calc(100vh - 319px);
 	}
 }
 /* footer.footer */
